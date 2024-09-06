@@ -50,7 +50,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -66,4 +65,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+// KMM as module - which has UI and logic as separate module
+    implementation(libs.matrixgettingstartedkmm)
+
+//    implementation(libs.kmmasmodule)
+//    implementation("io.github.prathivdev:KMMasModule:1.0.0")
+
+
 }
